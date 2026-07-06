@@ -39,7 +39,7 @@ python3 -m pip install -r requirements.txt
 ### ESXi へ直接接続
 
 ```bash
-python3 esxi_tui.py --host 192.168.100.20 --user root --insecure
+python3 esxi_tui.py --host <vCenter or ESXi IPaddress> --user root --insecure
 ```
 
 ### vCenter へ接続

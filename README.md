@@ -39,13 +39,13 @@ python3 -m pip install -r requirements.txt
 ### ESXi へ直接接続
 
 ```bash
-python3 esxi_tui.py --host <vCenter or ESXi IPaddress> --user root --insecure
+python3 vmtui.py --host <vCenter or ESXi IPaddress> --user root --insecure
 ```
 
 ### vCenter へ接続
 
 ```bash
-python3 esxi_tui.py \
+python3 vmtui.py \
   --host vcsa.example.local \
   --user administrator@vsphere.local \
   --insecure \
@@ -56,7 +56,7 @@ python3 esxi_tui.py \
 
 ```bash
 export VSPHERE_PASSWORD='your-password'
-python3 esxi_tui.py --host vcsa.example.local --user administrator@vsphere.local --insecure
+python3 vmtui.py --host vcsa.example.local --user administrator@vsphere.local --insecure
 ```
 
 ## キー操作

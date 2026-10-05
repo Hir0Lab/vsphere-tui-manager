@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-esxi_tui.py - ESXi / vCenter VM power operation TUI
+vmtui.py - ESXi / vCenter VM power operation TUI
 
 Features:
   - List VMs and monitor power state / VMware Tools state / heartbeat / IP
